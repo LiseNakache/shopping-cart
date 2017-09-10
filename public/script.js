@@ -34,10 +34,7 @@ var updateCart = function (price) {
 
 var clearCart = function () {
 cart = [];
-$('.cart-list').remove();
-$('.total').empty();
-var totalPrice = 0;
-$('.total').append(totalPrice);
+updateCart();
 }
 
 
