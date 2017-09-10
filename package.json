@@ -4,14 +4,24 @@
   "description": "for shopping!",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "express": "^4.15.4",
     "font-awesome": "^4.7.0",
     "handlebars": "^4.0.10",
     "jquery": "^3.2.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiseNakache/shopping-cart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LiseNakache/shopping-cart/issues"
+  },
+  "homepage": "https://github.com/LiseNakache/shopping-cart#readme"
 }
