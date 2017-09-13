@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+  <!-- <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'> -->
   <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -149,12 +149,12 @@
   </div>
 
 <script id="card-template" type="text/x-handlebars-template">
-  <p><span>{{item}}</span> - <span>${{price}}</span></p>
+  <div class="item-template">
+  <p><span>{{item}}</span>
+      <span class="qty">({{quantity}})</span> - <span>${{price}}</span>
+  <input type=button class="remove-item" value="Remove item"/></p>
+  </div>
 </script>
-
-
-
-
 
 
 
